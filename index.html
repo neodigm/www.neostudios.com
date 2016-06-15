@@ -286,6 +286,10 @@ $( document ).ready( function(){
     $("#cmd_cta, #cmd_cta_side").on("click", function(){
         $("#dialog_form").dialog("open");
     });
+	var sAct = location.search.split("act=")[1];
+	if(sAct === "contact"){
+		$("#dialog_form").dialog("open");
+	}
     $(function(){
 
         $("#elastic_grid_prtf").elastic_grid({

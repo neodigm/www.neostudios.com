@@ -258,12 +258,61 @@ hr.jeweled {
 }
 	</style>
 	<script>
-		$(document).ready(function(){
-			'use strict';
-			var sThank = location.search.split("thank=")[1];
-			if(sThank === "you"){
-				$("#thank").css("display","block");
-			}
-		});
+function generatePassword( nLen ) {
+     $('#js--input__url').val(extractDomain(  $('#js--input__url').val() ));
+    var sDh = $('#js--input__url').val() + "|" + $('#js--input__password').val();
+    sDh = hashThis( sDh.toLowerCase() );
+    return ucaseFirstAlpha( sDh.substr(sDh.length - nLen) );
+}
+function ucaseFirstAlpha( sIn ){
+    var sOut ="";
+    var bA = false;
+    for(var nCnt=0; nCnt < sIn.length; nCnt++){
+        if( isAlpha( sIn[nCnt] ) ){
+            if( !bA ){
+                sOut+=sIn[nCnt].toUpperCase();
+                bA = true;
+            }else{
+                sOut+=sIn[nCnt];
+            }
+        }else{
+            sOut+=sIn[nCnt];
+        }
+    }
+    return sOut;
+}
+function isAlpha(str) {
+  return /^[a-zA-Z]+$/.test(str);
+}
+$("#js--input__password").on("blur", function(){
+    var nLen = 12;
+    if( $("#js--input__number").val() !== "" ){
+        nLen = $("#js--input__number").val();
+    }
+    $("#js--input__search").val( generatePassword( nLen ) );
+    var eSyntax = document.querySelector("#js--input__search");  
+    eSyntax.select();
+    console.log("clip copy | " + document.execCommand('copy') );
+    $("#js--input__search").val("");
+    $("#js--input__password").val("javascript");
+});
+function hashThis( sIn ){
+    var shaObj = new jsSHA("SHA-256", "TEXT");
+    shaObj.setHMACKey("eplsg", "TEXT");
+    shaObj.update( sIn );
+    return shaObj.getHMAC("HEX");
+}
+function extractDomain(url) {
+    var domain;
+    url = String(url).toLowerCase();
+    if (url.indexOf("://") > -1) {
+        domain = url.split('/')[2];
+    }
+    else {
+        domain = url.split('/')[0];
+    }
+    domain = domain.split(':')[0];
+    return domain;
+}
 	</script>
 </html>

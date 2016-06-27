@@ -414,9 +414,16 @@ $( document ).ready( function(){
 <script src="js/main.js"></script>
 <script src="js/vendor/jquery.cbpQTRotator.min.js"></script>
 <script>
-    $( function() {
-        $( '#cbp-qtrotator' ).cbpQTRotator();
-    } );
+	$(document).ready(function(){
+		var sThank = location.search.split("thank=")[1];
+		if(sThank === "you"){
+			$("#dialog_thanks").dialog("open");
+		}
+		$( function() {
+			$( '#cbp-qtrotator' ).cbpQTRotator();
+		} );
+	});
+    
 </script>
 <script type="text/javascript" src="js/vendor/skrollr.min.js"></script>
 <script type="text/javascript">

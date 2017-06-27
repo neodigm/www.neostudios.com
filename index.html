@@ -58,14 +58,14 @@
     }
     .para-grid-bottom {
         display: grid;
-        grid-template-columns: 1fr minmax(352px, 1fr);
+        grid-template-columns: minmax(384px, 1fr) 1fr ;
         grid-row-gap: 16px;
         grid-column-gap: 16px;
         margin-top: 16px;
     }
     .para-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
         grid-row-gap: 16px;
         grid-column-gap: 16px;
     }
@@ -110,6 +110,7 @@
     .our-custs--aside {
         height: 96px;
         width: 176px;
+        color: #FFF;
         background-color: #E0DDC5;
         padding: 8px;
         margin: 12px;
@@ -117,9 +118,19 @@
     }
 @media only screen and (max-width: 47.9375em) {
     /* small */
+    .neos--p {
+        font-size: .94em;
+        font-weight: 400;
+        line-height: 1.2;
+    }
 }
 @media only screen and (min-width:48em) and (max-width:61.1875em){
     /* medium */
+    .neos--p {
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.4;
+    }
 }
 @media only screen and (min-width: 90em) {
     /* large up */
@@ -136,8 +147,9 @@
     style="text-align: center">Digital Agency | UX Consultancy</p>
 </article>
 <article class="para-card neos_motif_01__bg">
+    <br>
     <p class="neos--p">Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story.</p>
-    <h2 class="neos--h1" style="color: #FFF;">precisely.</h2>
+    <h2 class="neos--h1" style="color: #FFF;">precisely</h2>
 </article>
         </section>
 
@@ -171,7 +183,7 @@
 
         </section>
         <section class="para-grid-bottom">
-<article class="para-card neos_motif_01__bg">
+<article class="para-card neos_motif_07__bg">
     <div class="js-carsl">
         <aside class="our-custs--aside">Aperture science</aside>
         <aside class="our-custs--aside">Blue Sun Corporation</aside>

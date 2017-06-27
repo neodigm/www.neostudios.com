@@ -56,6 +56,13 @@
         grid-column-gap: 16px;
         margin-bottom: 16px;
     }
+    .para-grid-bottom {
+        display: grid;
+        grid-template-columns: 1fr minmax(352px, 1fr);
+        grid-row-gap: 16px;
+        grid-column-gap: 16px;
+        margin-top: 16px;
+    }
     .para-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
@@ -100,21 +107,22 @@
         text-align: center;
         color: #EDBA08;
     }
-.our-custs--aside {
-	height: 96px;
-	width: 176px;
-	background-color: #777;
-	padding: 8px;
-	margin: 12px;
-}
+    .our-custs--aside {
+        height: 96px;
+        width: 176px;
+        background-color: #E0DDC5;
+        padding: 8px;
+        margin: 12px;
+        overflow: hidden;
+    }
 @media only screen and (max-width: 47.9375em) {
-	/* small */
+    /* small */
 }
 @media only screen and (min-width:48em) and (max-width:61.1875em){
-	/* medium */
+    /* medium */
 }
 @media only screen and (min-width: 90em) {
-	/* large up */
+    /* large up */
 }
 
 </style>
@@ -159,20 +167,27 @@
     <h2 class="neos--h2">Digital Signage</h2>
     <p class="neos--p">Custom kiosk signage where you need it most.</p>
 </article>
-<article class="para-card neos_motif_00__bg">
- <div class="your-class">
-<div class="our-custs--aside">Aperture science</div>
-<div class="our-custs--aside">Blue Sun Corporation</div>
-<div class="our-custs--aside">Northwind Traders</div>
-<div class="our-custs--aside">Serano Genomics</div>
-<div class="our-custs--aside">TELAMERICORP</div>
-<div class="our-custs--aside">Veridian Dynamics</div>
-<div class="our-custs--aside">Wolf Cola</div>
-<div class="our-custs--aside">Yoyodyne Propulsion Systems</div>
-  </div>
-</article>
-		
+        
 
+        </section>
+        <section class="para-grid-bottom">
+<article class="para-card neos_motif_01__bg">
+    <div class="js-carsl">
+        <aside class="our-custs--aside">Aperture science</aside>
+        <aside class="our-custs--aside">Blue Sun Corporation</aside>
+        <aside class="our-custs--aside">Northwind Traders</aside>
+        <aside class="our-custs--aside">Serano Genomics</aside>
+        <aside class="our-custs--aside">TELAMERICORP</aside>
+        <aside class="our-custs--aside">Veridian Dynamics</aside>
+        <aside class="our-custs--aside">Wolf Cola</aside>
+        <aside class="our-custs--aside">Yoyodyne Propulsion Systems</aside>
+    </div>
+</article>
+<article class="para-card neos_motif_00__bg">
+    <h1 class="neos--h1">QR</h1>
+    <p class="neos--p"
+    style="text-align: center">Digital Agency | UX Consultancy</p>
+</article>
         </section>
 
 
@@ -183,12 +198,13 @@
 
     <script>
     $( document ).ready( function(){
-      $('.your-class').slick({
+      $('.js-carsl').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-	   dots: true
+       dots: false,
+       arrows:false
 });
     });
     </script>

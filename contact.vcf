@@ -1,7 +1,5 @@
 BEGIN:VCARD
-VERSION:4.0
-N:Neo;Studios;;;
-FN:Studios Neo
-EMAIL:neostudios.com+home@gmail.com
-URL;type=pref:http://www.NeoStudios.com/
+N:Studios;Neo;;;
+EMAIL;INTERNET:neostudios.com@gmail.com
+ORG:Neo Studios
 END:VCARD

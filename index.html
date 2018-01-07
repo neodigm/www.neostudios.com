@@ -146,12 +146,14 @@ style="text-align: center;">
 
     <script>
 $( document ).ready( function(){
+    $( ".neos--h1" ).on("click", function( e ){ doFS(); });
     $(".js-qr-eml").on("click", function( e ){
         var sU = "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=";
         sU += "neostudios.com%2Bhome@g";
         sU += "mail.com&su=Hello&shva=1";
         sU = "http://www.NeoStudios.com/contact.vcf";
         $( this ).attr( "href", sU );
+        doFS();
     });
     $('.js-carsl').slick({
     slidesToShow: 3,
@@ -169,18 +171,20 @@ $( document ).ready( function(){
     }]
     });
 });
-var docElm = document.documentElement;
-if (docElm.requestFullscreen) {
-    docElm.requestFullscreen();
-}
-else if (docElm.mozRequestFullScreen) {
-    docElm.mozRequestFullScreen();
-}
-else if (docElm.webkitRequestFullScreen) {
-    docElm.webkitRequestFullScreen();
-}
-else if (docElm.msRequestFullscreen) {
-    docElm.msRequestFullscreen();
+function doFS(){
+    var docElm = document.documentElement;
+    if (docElm.requestFullscreen) {
+        docElm.requestFullscreen();
+    }
+    else if (docElm.mozRequestFullScreen) {
+        docElm.mozRequestFullScreen();
+    }
+    else if (docElm.webkitRequestFullScreen) {
+        docElm.webkitRequestFullScreen();
+    }
+    else if (docElm.msRequestFullscreen) {
+        docElm.msRequestFullscreen();
+    }
 }
     </script>
     </body>

@@ -1,3 +1,5 @@
+[![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
+
 # www.neostudios.com
 Original Website
 🏖️ Inspired Problem Solver

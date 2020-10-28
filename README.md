@@ -1,8 +1,9 @@
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
 
 # www.neostudios.com
-Original Website
-🌴 Creative, Business, and Tech ⚡
+Vintage Website
+
+Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story.
 
 ---
 ![](https://repository-images.githubusercontent.com/178555357/2b6ad880-7aa0-11ea-8dde-63e70187e3e9)

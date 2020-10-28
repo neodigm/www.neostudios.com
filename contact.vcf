@@ -1,11 +1,17 @@
+
 BEGIN:VCARD
-VERSION:2.1
-N:Studios;Neo
-FN:Neo Studios
-ORG:Neo Studios
-TEL;WORK;VOICE:(815) 669-0636
-X-MS-OL-DEFAULT-POSTAL-ADDRESS:0
-EMAIL;PREF;INTERNET:neostudios@gmail.com
-X-MS-OL-DESIGN;CHARSET=utf-8:<card xmlns="http://schemas.microsoft.com/office/outlook/12/electronicbusinesscards" ver="1.0" layout="left" bgcolor="ffffff"><img xmlns="" align="fit" area="16" use="cardpicture"/><fld xmlns="" prop="name" align="left" dir="ltr" style="b" color="000000" size="10"/><fld xmlns="" prop="org" align="left" dir="ltr" color="000000" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="telwork" align="left" dir="ltr" color="d48d2a" size="8"><label align="right" color="626262">Work</label></fld><fld xmlns="" prop="email" align="left" dir="ltr" color="d48d2a" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/></card>
-REV:20170705T210713Z
+VERSION:3.0
+FN;CHARSET=UTF-8:Scott C Krause
+N;CHARSET=UTF-8:Krause;Scott;C;;
+NICKNAME;CHARSET=UTF-8:neodigm
+UID;CHARSET=UTF-8:5
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:neodigm.ux@gmail.com
+TEL;TYPE=WORK,VOICE:5555555555
+ADR;CHARSET=UTF-8;TYPE=HOME:;;;Gurnee;IL;60031;USA
+TITLE;CHARSET=UTF-8:Lead Product Designer
+ROLE;CHARSET=UTF-8:Product Designer | Interactive Storyteller
+ORG;CHARSET=UTF-8:Independent
+URL;type=WORK;CHARSET=UTF-8:https://www.thescottkrause.com/
+NOTE;CHARSET=UTF-8:🚀 Inspired Problem Solver 🏖️Visual Storyteller
+REV:2020-05-31T20:19:01.849Z
 END:VCARD

@@ -1,16 +1,14 @@
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
 
-Neo Studios
 
 Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story.
 
 Neo Studios was an interactive design agency that created customer engagement apps, websites, and video. I worked closely with the client in every aspect of the project from creative ideation through launch. It was a prolific couple years in which we launched thousands of websites and DVDs.
 
 
-
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
-[🚀 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |
+[🦄 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |
 [NPM](https://www.npmjs.com/~neodigm) |
 [Github](https://github.com/neodigm) |
 [LinkedIn](https://www.linkedin.com/in/neodigm24/) |

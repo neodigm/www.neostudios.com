@@ -1,7 +1,9 @@
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
 
 <p align="center">
-  <img src="https://github.com/neodigm/www.neostudios.com/blob/gh-pages/NEOS_LOGO_0001.jpg?raw=true" alt="One does what one must">
+  <a target="_blank" href="http://neodigm.github.io/www.neostudios.com/">
+    <img src="https://github.com/neodigm/www.neostudios.com/blob/gh-pages/NEOS_LOGO_0001.jpg?raw=true" alt="One does what one must">
+  </a>
 </p>
 
 
@@ -11,7 +13,7 @@ Neo Studios was an interactive design agency that created customer engagement ap
 
 <p align="center">
   <a target="_blank" href="http://neodigm.github.io/www.neostudios.com/">
-  <img src="http://neodigm.github.io/www.neostudios.com/content/neo_studios.webp" title="Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story." alt="Neo Studios Chicago">
+    <img src="http://neodigm.github.io/www.neostudios.com/content/neo_studios.webp" title="Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story." alt="Neo Studios Chicago">
   </a>
 </p>
 

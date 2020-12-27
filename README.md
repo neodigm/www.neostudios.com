@@ -1,5 +1,9 @@
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
 
+<p align="center">
+  <img src="https://github.com/neodigm/www.neostudios.com/blob/gh-pages/NEOS_LOGO_0001.jpg?raw=true" alt="One does what one must">
+</p>
+
 
 Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story.
 

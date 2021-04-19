@@ -14,7 +14,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 <!-- omit in TOC -->
 ## Table of Contents
 
-- [I Have a Question](#i-have-a-question)
+- [I Have a Question](#i-have-questions)
 - [I Want To Contribute](#i-want-to-contribute)
   - [Reporting Bugs](#reporting-bugs)
   - [Suggesting Enhancements](#suggesting-enhancements)
@@ -26,7 +26,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 
 
-## I Have a Question
+## I Have Questions
 
 > If you want to ask a question, we assume that you have read the available [Documentation](https://github.com/neodigm/vivid_vector_alphabet/blob/gh-pages/README.MD).
 

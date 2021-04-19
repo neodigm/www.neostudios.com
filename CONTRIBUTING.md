@@ -139,7 +139,7 @@ Updating, improving and correcting the documentation
 
 ## Styleguides
 ### Commit Messages
-<!-- TODO
+<!-- TADA
 
 -->
 

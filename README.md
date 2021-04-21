@@ -1,5 +1,3 @@
-[![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
-
 <p align="center">
   <a target="_blank" href="http://neodigm.github.io/www.neostudios.com/">
     <img src="https://github.com/neodigm/www.neostudios.com/blob/gh-pages/NEOS_LOGO_0001.jpg?raw=true" alt="Suddenly Seriously Dazzling">

@@ -9,7 +9,7 @@ Neo Studios are a [creative fusion](https://thescottkrause.com/d3_datavis_skills
 
 Neo Studios was an interactive design agency that created customer engagement apps, websites, and video. I worked closely with the client in every aspect of the project from creative ideation through launch. It was a prolific couple years in which we launched thousands of websites and DVDs.
 
-<p align="center">
+<p align="left">
   <a target="_blank" href="http://neodigm.github.io/www.neostudios.com/">
     <img src="http://neodigm.github.io/www.neostudios.com/content/neo_studios.webp" title="Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story." alt="Neo Studios Chicago">
   </a>

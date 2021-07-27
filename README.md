@@ -44,6 +44,6 @@ Neo Studios was an interactive design agency that created customer engagement ap
 
 <p align="center">
 	<a target="_blank" href="https://www.thescottkrause.com">
-		<img src="https://neodigm.github.io/pan-fried-monkey-fisticuffs/thescottkrause_contact_card.png" title="Three.js 🚀 TypeScript 🍭 WASM ✨ Go">
+		<img src="https://neodigm.github.io/pan-fried-monkey-fisticuffs/thescottkrause_contact_card.png" title="Three.js 🚀 TypeScript 🍭 WASM ✨ PWA">
 	</a>
 </p>

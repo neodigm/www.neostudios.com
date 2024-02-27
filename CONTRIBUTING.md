@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Contributing to Vivid Vector Alphabet
+# Contributing to Chicago Vivid Vector Alphabet
 
 First off, thanks for taking the time to contribute! 👁️ 
 

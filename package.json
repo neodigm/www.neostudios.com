@@ -1,7 +1,7 @@
 {
   "name": "scott_c_krause_neodigm",
   "version": "5.5.5",
-  "description": "UX artisan ⚡ illustrator ⚡ front-end engineer",
+  "description": "UX artisan ⚡ illustrator ⚡ front-end engineer MuleSoft 🌶️ Solid Start 🧲 TanStack Query Veeva",
   "main": "vue_threejs_wasm.js",
   "scripts": {
     "test": "e2e.js"
@@ -26,6 +26,7 @@
   "license": "ISC",
   "dependencies": {
     "@angular/common": "^10.1.6",
+    "@neodigm55/neodigmUX": "^4.0.0",
     "@angular/compiler": "^10.1.6",
     "@angular/core": "^11.0.5",
     "@angular/forms": "^10.1.6",

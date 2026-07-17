@@ -11,7 +11,7 @@ Neo Studios was an [interactive](https://www.thescottkrause.com/devtoys/horizont
 
 <p align="center">
   <a target="_blank" href="http://neodigm.github.io/www.neostudios.com/">
-    <img src="http://neodigm.github.io/www.neostudios.com/content/neo_studios.webp" title="Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story." alt="Neo Studios Chicago">
+    <img src="http://neodigm.github.io/www.neostudios.com/content/neo_studios.webp" title="👁️ D3 Parallax Three.js && WebGL 🍭 CSS Paint API 🍭 GSAP 🍭 Neo Studios are a creative fusion of business perspective and technical agility. Since 1996 we've been helping large and small clients tell their own unforgettable story." alt="Neo Studios Chicago">
   </a>
 </p>
 
